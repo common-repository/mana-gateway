@@ -1,0 +1,110 @@
+.mgw-tgl {
+    display: none !important;
+}
+
+.mgw-tgl, .mgw-tgl:after, .mgw-tgl:before, .mgw-tgl *, .mgw-tgl *:after, .mgw-tgl *:before, .mgw-tgl + .mgw-tgl-btn {
+    box-sizing: border-box;
+}
+
+.mgw-tgl::-moz-selection, .mgw-tgl:after::-moz-selection, .mgw-tgl:before::-moz-selection, .mgw-tgl *::-moz-selection, .mgw-tgl *:after::-moz-selection, .mgw-tgl *:before::-moz-selection, .mgw-tgl + .mgw-tgl-btn::-moz-selection {
+    background: none;
+}
+
+.mgw-tgl::selection, .mgw-tgl:after::selection, .mgw-tgl:before::selection, .mgw-tgl *::selection, .mgw-tgl *:after::selection, .mgw-tgl *:before::selection, .mgw-tgl + .mgw-tgl-btn::selection {
+    background: none;
+}
+
+.mgw-tgl + .mgw-tgl-btn {
+    outline: 0;
+    display: block;
+    width: 4em;
+    height: 2em;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.mgw-tgl + .mgw-tgl-btn:after, .mgw-tgl + .mgw-tgl-btn:before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+}
+
+.mgw-tgl-rtl + .mgw-tgl-btn:after {
+    right: 0;
+}
+
+.mgw-tgl-ltr + .mgw-tgl-btn:after {
+    left: 0;
+}
+
+.mgw-tgl + .mgw-tgl-btn:before {
+    display: none;
+}
+
+.mgw-tgl-rtl:checked + .mgw-tgl-btn:after {
+    right: 50%;
+}
+
+.mgw-tgl-ltr:checked + .mgw-tgl-btn:after {
+    left: 50%;
+}
+
+.mgw-tgl + .mgw-tgl-btn {
+    background: #fbfbfb;
+    border-radius: 2em;
+    padding: 2px;
+    transition: all .4s ease;
+    border: 1px solid #e8eae9;
+}
+
+.mgw-tgl + .mgw-tgl-btn:after {
+    border-radius: 2em;
+    background: #fbfbfb;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.mgw-tgl-rtl + .mgw-tgl-btn:after {
+    transition: right 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+}
+
+.mgw-tgl-ltr + .mgw-tgl-btn:after {
+    transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+}
+
+.mgw-tgl + .mgw-tgl-btn:hover:after {
+    will-change: padding;
+}
+
+.mgw-tgl + .mgw-tgl-btn:active {
+    box-shadow: inset 0 0 0 2em #e8eae9;
+}
+
+.mgw-tgl-rtl + .mgw-tgl-btn:active:after {
+    padding-left: .8em;
+}
+
+.mgw-tgl-ltr + .mgw-tgl-btn:active:after {
+    padding-right: .8em;
+}
+
+.mgw-tgl:checked + .mgw-tgl-btn {
+    background: #86d993;
+}
+
+.mgw-tgl:checked + .mgw-tgl-btn:active {
+    box-shadow: none;
+}
+
+.mgw-tgl-rtl:checked + .mgw-tgl-btn:active:after {
+    margin-right: -.8em;
+}
+
+.mgw-tgl-ltr:checked + .mgw-tgl-btn:active:after {
+    margin-left: -.8em;
+}

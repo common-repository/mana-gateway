@@ -1,0 +1,298 @@
+/**
+ * All of the CSS for your admin-specific functionality should be included in this file.
+ *
+ * The file is enqueued from inc/admin/class-admin.php.
+ */
+@import "ios-toggle.css";
+@import "tooltip.css";
+@import "accordion.css";
+
+@font-face {
+    font-family: Iransans;
+    src: url('../../../assets/fonts/Iransans/IRANSansWeb_Light.woff2') format('woff');
+    src: url('../../../assets/fonts/Iransans/IRANSansWeb_Light.woff2') format('woff');
+    src: url('../../../assets/fonts/Iransans/IRANSansWeb_Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Iransans-Bold;
+    src: url('../../../assets/fonts/Iransans-Bold/IRANSansWeb_Bold.woff') format('woff');
+    src: url('../../../assets/fonts/Iransans-Bold/IRANSansWeb_Bold.woff2') format('woff');
+    src: url('../../../assets/fonts/Iransans-Bold/IRANSansWeb_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Iransans-FaNum;
+    src: url('../../../assets/fonts/Iransans-FaNum/IRANSansWeb(FaNum).woff') format('woff');
+    src: url('../../../assets/fonts/Iransans-FaNum/IRANSansWeb(FaNum).woff2') format('woff');
+    src: url('../../../assets/fonts/Iransans-FaNum/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+.mgw-div-container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mgw-div-container-fluid label, .mgw-div-container-fluid input[type~="text"], .mgw-div-container-fluid select, .mgw-div-container-fluid option, .mgw-div-container-fluid textarea, .mgw-div-container-fluid span {
+    font-family: Iransans, serif !important;
+}
+
+.mgw-div-container-fluid h1, .mgw-div-container-fluid h2, .mgw-div-container-fluid h3, .mgw-div-container-fluid h4, .mgw-div-container-fluid h5, .mgw-div-container-fluid h6, .mgw-div-container-fluid input[type~="submit"] {
+    font-family: Iransans-Bold, serif !important;
+}
+
+.mgw-div-row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.mgw-div-col-2 {
+    width: calc(1 / 6 * 100% - 2px);
+}
+
+.mgw-div-col-8 {
+    width: calc(2 / 3 * 100% - 2px);
+}
+
+.mgw-div-col-10 {
+    width: calc(5 / 6 * 100% - 2px);
+}
+
+.mgw-div-col-4 {
+    width: calc(1 / 3 * 100% - 2px);
+}
+
+.mgw-div-col-2, .mgw-div-col-4, .mgw-div-col-8 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+#mgw-payment input.is_number {
+    text-align: left;
+    font-family: Iransans-FaNum, serif !important;
+}
+
+.mgw-label {
+    font-size: 1.2em !important;
+}
+
+.mgw-button {
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important;
+    background: #263238 !important;
+}
+
+.mgw-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 10px auto 10px;
+    border-radius: 2px;
+    border: 1px solid #E0E0E0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.mgw-thead {
+    font-weight: bold;
+    background: #F5F5F5;
+    font-family: Iransans-Bold, serif;
+    font-size: 1.2em;
+    border-bottom: 1px solid #aeaeae;
+    z-index: 2;
+}
+
+.mgw-thead th {
+    padding: 15px 1px;
+}
+
+.mgw-tbody {
+    font-family: Iransans, serif;
+    font-size: 1em;
+}
+
+.mgw-tr-even {
+    background: #E0E0E0;
+    border: 1px solid #E0E0E0;
+}
+
+.mgw-tr-odd {
+    background: #F5F5F5;
+    border: 1px solid #E0E0E0;
+}
+
+.mgw-tbody td {
+    padding: 15px 1px;
+}
+
+.mgw-tbody .mgw-sort {
+    text-align: center;
+}
+
+.mgw-sort {
+    width: 5%;
+}
+
+.mgw-name {
+    width: 30%;
+}
+
+.mgw-status {
+    width: 15%;
+}
+
+.mgw-description {
+    width: 40%;
+}
+
+.mgw-action {
+    width: 10%;
+}
+
+.mgw-button-primary {
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important;
+    background: #161616 !important;
+    color: white;
+    padding: 6px;
+}
+
+.mgw-button-primary:hover {
+    transition: all 150ms linear;
+    color: white;
+    opacity: .85;
+}
+
+.mgw-arrow-button-up, .mgw-arrow-button-down {
+    margin: 0 -3px;
+}
+
+.mgw-arrow-button-up:hover, .mgw-arrow-button-down:hover {
+    color: #ff9900;
+}
+
+#mana-item-list-form th {
+    text-align: center;
+}
+
+#mana-item-list-form td {
+    text-align: center;
+}
+
+#mana-item-list-form th a span:not(.sorting-indicator) {
+    float: unset !important;
+}
+
+.column-pay_id {
+    width: 8%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.column-date {
+    width: 11% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.column-price {
+    width: 11% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.column-payer {
+    width: 10% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.column-payer_info {
+    width: 22% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.column-gateway {
+    width: 12% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.column-post_id {
+    width: 8% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.column-status {
+    width: 7% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.column-log_details {
+    width: 11% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.log-details {
+    border: solid 1px silver;
+    margin: 16px;
+    background: white;
+    padding: 5px;
+}
+
+.mgw-tutorial {
+    margin: 20px 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.mgw-tutorial > a {
+    font-size: 1.5em;
+    padding: 10px;
+    background: white;
+    color: #e53935;
+    border: 1px solid grey;
+    border-radius: 3px 3px 0px 0;
+}
+
+.mgw-tutorial > a.active {
+    background: white;
+}
+
+.mgw-tutorial > .mgw-content > p {
+    color: black;
+    background: rgba(255, 0, 0, 0.2);
+}
+
+.mgw-p-fields-large {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.mgw-p-fields-normal {
+    font-size: 13px;
+}
+
+.mgw-p-fields-small {
+    font-size: 8px;
+    font-weight: lighter;
+}

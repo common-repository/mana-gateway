@@ -1,0 +1,516 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MANA Gateway\n"
+"POT-Creation-Date: 2018-10-25 10:03+0330\n"
+"PO-Revision-Date: 2018-10-25 10:03+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: mana-gateway.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/admin/class-admin.php:108 inc/admin/class-admin.php:109
+msgid "Payment Gateway"
+msgstr "درگاه پرداخت"
+
+#: inc/admin/class-admin.php:118 inc/admin/class-admin.php:119
+#: inc/admin/class-admin.php:129 inc/admin/class-admin.php:130
+#: inc/admin/views/partials-mana-item-list-table.php:5
+msgid "Payment Log"
+msgstr "گزارشات پرداخت"
+
+#: inc/admin/class-admin.php:197
+msgid "Logs Per Page"
+msgstr "گزارش در صفحه"
+
+#: inc/admin/class-admin.php:232 inc/admin/class-payment-log-table.php:93
+msgid "Log Details"
+msgstr "جزئیات گزارش"
+
+#: inc/admin/class-admin.php:235 inc/admin/views/html-mana-gateway-manage.php:5
+msgid "Back"
+msgstr "بازگشت"
+
+#: inc/admin/class-payment-log-table.php:85
+msgid "Date"
+msgstr "تاریخ"
+
+#: inc/admin/class-payment-log-table.php:86
+msgid "Pay ID"
+msgstr "کد پرداخت"
+
+#: inc/admin/class-payment-log-table.php:87 inc/frontend/class-frontend.php:308
+msgid "Price"
+msgstr "مبلغ"
+
+#: inc/admin/class-payment-log-table.php:88
+msgid "Payer Name"
+msgstr "پرداخت کننده"
+
+#: inc/admin/class-payment-log-table.php:89
+msgid "Payer Info"
+msgstr "اطلاعات پرداخت کننده"
+
+#: inc/admin/class-payment-log-table.php:90 inc/frontend/class-frontend.php:317
+msgid "Gateway"
+msgstr "درگاه"
+
+#: inc/admin/class-payment-log-table.php:91
+msgid "From Page"
+msgstr "صفحه مبدأ"
+
+#: inc/admin/class-payment-log-table.php:92
+#: inc/admin/views/html-mana-gateway-admin-display.php:37
+#: inc/common/gateways/class-gateway-zarinpal.php:43
+#: inc/common/gateways/class-gateway-zarinpal.php:45
+msgid "Status"
+msgstr "وضعیت"
+
+#: inc/admin/class-payment-log-table.php:141
+msgid "No logs available."
+msgstr "هیچ گزارشی وجود ندارد."
+
+#: inc/admin/class-payment-log-table.php:208
+#: inc/frontend/class-frontend.php:263
+msgid "Email"
+msgstr "ایمیل"
+
+#: inc/admin/class-payment-log-table.php:209
+#: inc/frontend/class-frontend.php:272
+msgid "Mobile"
+msgstr "تلفن همراه"
+
+#: inc/admin/class-payment-log-table.php:211
+#: inc/frontend/class-frontend.php:281
+msgid "Phone"
+msgstr "تلفن"
+
+#: inc/admin/class-payment-log-table.php:212
+#: inc/frontend/class-frontend.php:290
+msgid "Address"
+msgstr "آدرس"
+
+#: inc/admin/class-payment-log-table.php:214
+#: inc/frontend/class-frontend.php:299
+msgid "Comment"
+msgstr "توضیحات"
+
+#: inc/admin/class-payment-log-table.php:216
+msgid "User"
+msgstr "کاربر"
+
+#: inc/admin/class-payment-log-table.php:280
+#: inc/admin/class-payment-log-table.php:298
+msgid "Details"
+msgstr "جزئیات"
+
+#: inc/admin/class-payment-log-table.php:290
+#: inc/admin/views/partials-mana-item-list-table.php:31
+msgid "Failed"
+msgstr "ناموفق"
+
+#: inc/admin/class-payment-log-table.php:292
+#: inc/admin/views/partials-mana-item-list-table.php:27
+msgid "Success"
+msgstr "موفق"
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:4
+msgid "Gateway Settings"
+msgstr "تنظیمات درگاه"
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:9
+msgid "Tutorial"
+msgstr "راهنما"
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:15
+msgid "Instructions"
+msgstr "نحوه استفاده"
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:17
+msgid "1- Manage and activate desired gateways."
+msgstr "1- درگاه های دلخواه را مدیریت و فعال کنید."
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:19
+msgid "2- Put this shortcode in your post or page: "
+msgstr "2- کد کوتاه زیر را در صفحه یا پست خود قرار دهید: "
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:22
+msgid "[payment_form price='PaymentPrice' currency='CurrencyCode']"
+msgstr "[payment_form price='مبلغ پرداختی' currency='کد واحد پول']"
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:26
+msgid ""
+"* PaymentPrice is digit and CurrencyCode is Standard Currency Code (stated "
+"in gateway settings)"
+msgstr ""
+"مبلغ پرداختی به صورت عددی و کد واحد پول کد سه حرفی استاندارد واحد پول می "
+"باشد (ذکر شده در تنظیمات درگاه)"
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:36
+msgid "Method"
+msgstr "روش"
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:38
+#: inc/common/gateways/class-gateway-zarinpal.php:67
+msgid "Description"
+msgstr "توضیحات"
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:61
+#: inc/admin/views/html-mana-gateway-manage.php:60
+msgid "Enabled"
+msgstr "فعال"
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:61
+#: inc/admin/views/html-mana-gateway-manage.php:60
+msgid "Disabled"
+msgstr "غیرفعال"
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:65
+msgid "Manage"
+msgstr "مدیریت"
+
+#: inc/admin/views/html-mana-gateway-manage.php:73
+msgid "Save Settings"
+msgstr "ذخیره تنظیمات"
+
+#: inc/admin/views/html-mana-gateway-manage.php:75
+msgid "Cancel"
+msgstr "لغو"
+
+#: inc/admin/views/partials-mana-item-list-table.php:12
+msgid "Find"
+msgstr "جستجو"
+
+#: inc/admin/views/partials-mana-item-list-table.php:17
+msgid "Display Only"
+msgstr "فقط نمایش"
+
+#: inc/admin/views/partials-mana-item-list-table.php:23
+msgid "All"
+msgstr "همه"
+
+#: inc/common/class-gateway-base.php:112
+#, php-format
+msgid "Supported Currency is %s."
+msgstr "واحد پول قابل استفاده %s است."
+
+#: inc/common/class-gateway-settings.php:153
+msgid "Rials"
+msgstr "ریال"
+
+#: inc/common/class-gateway-settings.php:154
+msgid "Dollars"
+msgstr "دلار"
+
+#: inc/common/gateways/class-gateway-zarinpal.php:19
+msgid "ZarinPal secure payment"
+msgstr "پرداخت امن زرین پال"
+
+#: inc/common/gateways/class-gateway-zarinpal.php:20
+msgid "ZarinPal payment gateway for Wordpress"
+msgstr "درگاه پرداخت زرین پال برای وردپرس"
+
+#: inc/common/gateways/class-gateway-zarinpal.php:38
+msgid "ZarinPal gateway's settings for Mana gateway plugin"
+msgstr "تنظیمات درگاه زرین پال برای پلاگین درگاه مانا"
+
+#: inc/common/gateways/class-gateway-zarinpal.php:50
+msgid "Merchant Code"
+msgstr "مرچنت کد"
+
+#: inc/common/gateways/class-gateway-zarinpal.php:54
+msgid "ZarinPal gateway's merchant code"
+msgstr "مرچنت کد درگاه زرین پال"
+
+#: inc/common/gateways/class-gateway-zarinpal.php:59
+msgid "Activate ZarinGate"
+msgstr "فعالسازی زرین گیت"
+
+#: inc/common/gateways/class-gateway-zarinpal.php:61
+msgid "To activate direct gateway (ZarinGate), please tick the checkbox."
+msgstr "برای فعالسازی درگاه مستقیم (زرین گیت) باید چک باکس را تیک بزنید."
+
+#: inc/common/gateways/class-gateway-zarinpal.php:62
+msgid "ZarinPal's direct gateway"
+msgstr "درگاه مستقیم زرین پال"
+
+#: inc/common/gateways/class-gateway-zarinpal.php:69
+msgid "Transaction description: You can use these shortcodes: {pay_id},{name}"
+msgstr ""
+"توضیحات تراکنش: شما می توانید از این کدهای کوتاه نیز استفاده کنید: {pay_id},"
+"{name}"
+
+#: inc/common/gateways/class-gateway-zarinpal.php:74
+msgid "Success Message"
+msgstr "پیام نتیجه موفق"
+
+#: inc/common/gateways/class-gateway-zarinpal.php:76
+msgid ""
+"Message after a successful transaction. You can use these shortcodes: "
+"{pay_id},{price},{name},{gateway},{refid},{message}"
+msgstr ""
+"پیامی که پس از تراکنش موفق نمایش داده می شود. شما می توانید از این کدهای "
+"کوتاه نیز استفاده کنید: {pay_id},{price},{name},{gateway},{refid},{message}"
+
+#: inc/common/gateways/class-gateway-zarinpal.php:81
+msgid "Failed Message"
+msgstr "پیام نتیجه ناموفق"
+
+#: inc/common/gateways/class-gateway-zarinpal.php:83
+msgid ""
+"Message after a successful transaction. You can use these shortcodes: "
+"{pay_id},{price},{name},{gateway},{message}"
+msgstr ""
+"پیامی که پس از تراکنش ناموفق نمایش داده می شود. شما می توانید از این کدهای "
+"کوتاه نیز استفاده کنید: {pay_id},{price},{name},{gateway},{message}"
+
+#: inc/common/gateways/class-gateway-zarinpal.php:136
+msgid "HTTP Error"
+msgstr "خطای HTTP"
+
+#: inc/common/gateways/class-gateway-zarinpal.php:196
+msgid "Callback URL shouldn't be empty."
+msgstr "لینک بازگشت ( CallbackURL ) نباید خالی باشد."
+
+#: inc/common/gateways/class-gateway-zarinpal.php:200
+msgid "Description shouldn't be empty."
+msgstr "توضیحات تراکنش نباید خالی باشد."
+
+#: inc/common/gateways/class-gateway-zarinpal.php:203
+msgid "Incomplete sent data."
+msgstr "اطلاعات ارسال شده ناقص است."
+
+#: inc/common/gateways/class-gateway-zarinpal.php:204
+msgid "Invalid IP or Merchant code."
+msgstr "IP و يا مرچنت كد پذيرنده صحيح نيست."
+
+#: inc/common/gateways/class-gateway-zarinpal.php:205
+msgid "Invalid amount due to restrictions."
+msgstr ""
+"با توجه به محدوديت هاي شاپرك امكان پرداخت با رقم درخواست شده ميسر نمي باشد."
+
+#: inc/common/gateways/class-gateway-zarinpal.php:206
+msgid "Couldn't find the request."
+msgstr "درخواست مورد نظر يافت نشد."
+
+#: inc/common/gateways/class-gateway-zarinpal.php:207
+msgid "Can't edit the request."
+msgstr "امكان ويرايش درخواست ميسر نمي باشد."
+
+#: inc/common/gateways/class-gateway-zarinpal.php:208
+msgid "No payment transaction found."
+msgstr "هيچ نوع عمليات مالي براي اين تراكنش يافت نشد."
+
+#: inc/common/gateways/class-gateway-zarinpal.php:209
+msgid "Failed transaction."
+msgstr "تراكنش ناموفق می باشد."
+
+#: inc/common/gateways/class-gateway-zarinpal.php:210
+msgid "Paid amount doesn't match request amount."
+msgstr "رقم تراكنش با رقم پرداخت شده مطابقت ندارد."
+
+#: inc/common/gateways/class-gateway-zarinpal.php:211
+msgid "Request has been archived."
+msgstr "درخواست مورد نظر آرشيو شده است."
+
+#: inc/common/gateways/class-gateway-zarinpal.php:212
+msgid "Successful transaction."
+msgstr "عمليات با موفقيت انجام گرديده است."
+
+#: inc/common/gateways/class-gateway-zarinpal.php:213
+msgid "Transaction is successful and had been verified before."
+msgstr "عمليات پرداخت موفق بوده و قبلا تأیید تراكنش انجام شده است."
+
+#: inc/common/gateways/class-gateway-zarinpal.php:219
+msgid "Unknown Error occurred."
+msgstr "خطای نامشخص."
+
+#: inc/frontend/class-frontend.php:219
+msgid "Error"
+msgstr "خطا"
+
+#: inc/frontend/class-frontend.php:219
+msgid "Missing Required Parameter: Price"
+msgstr "پارامتر ضروری وجود ندارد: قیمت"
+
+#: inc/frontend/class-frontend.php:249
+msgid "Online Payment"
+msgstr "پرداخت آنلاین"
+
+#: inc/frontend/class-frontend.php:254
+msgid "Name"
+msgstr "نام"
+
+#: inc/frontend/class-frontend.php:265
+msgid "Valid Email (i.e. example@domain.com)"
+msgstr "ایمیل معتبر (مثلاً example@domain.com)"
+
+#: inc/frontend/class-frontend.php:283
+msgid "Phone number including area code"
+msgstr "تلفن ثابت همراه با پیش شماره"
+
+#: inc/frontend/class-frontend.php:320
+msgid "Select..."
+msgstr "یک گزینه را انتخاب کنید..."
+
+#: inc/frontend/class-frontend.php:330
+msgid "Pay"
+msgstr "پرداخت"
+
+#: inc/libraries/class-wp-list-table.php:170
+msgid "List View"
+msgstr "نمایش فهرست‌وار"
+
+#: inc/libraries/class-wp-list-table.php:171
+msgid "Excerpt View"
+msgstr "نمایش چکیده"
+
+#: inc/libraries/class-wp-list-table.php:342
+msgid "No items found."
+msgstr "موردی پیدا نشد."
+
+#: inc/libraries/class-wp-list-table.php:469
+msgid "Select bulk action"
+msgstr "انتخاب کار دسته‌جمعی"
+
+#: inc/libraries/class-wp-list-table.php:471
+msgid "Bulk Actions"
+msgstr "کارهای دسته‌جمعی"
+
+#: inc/libraries/class-wp-list-table.php:481
+msgid "Apply"
+msgstr "اعمال"
+
+#: inc/libraries/class-wp-list-table.php:531
+#: inc/libraries/class-wp-list-table.php:1332
+msgid "Show more details"
+msgstr "نمایش جزئیات بیشتر"
+
+#: inc/libraries/class-wp-list-table.php:594
+msgid "Filter by date"
+msgstr "فیلتر براساس تاریخ"
+
+#: inc/libraries/class-wp-list-table.php:596
+msgid "All dates"
+msgstr "همه‌ی تاریخ‌ها"
+
+#. translators: 1: month name, 2: 4-digit year
+#: inc/libraries/class-wp-list-table.php:609
+#, php-format
+msgid "%1$s %2$d"
+msgstr "%2$d %1$s"
+
+#: inc/libraries/class-wp-list-table.php:661
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s کامنت"
+
+#: inc/libraries/class-wp-list-table.php:662
+#, php-format
+msgid "%s approved comment"
+msgid_plural "%s approved comments"
+msgstr[0] ""
+
+#: inc/libraries/class-wp-list-table.php:663
+#, php-format
+msgid "%s pending comment"
+msgid_plural "%s pending comments"
+msgstr[0] ""
+
+#: inc/libraries/class-wp-list-table.php:668
+#: inc/libraries/class-wp-list-table.php:680
+#: inc/libraries/class-wp-list-table.php:693
+msgid "No comments"
+msgstr "بدون کامنت"
+
+#: inc/libraries/class-wp-list-table.php:680
+msgid "No approved comments"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:693
+msgid "No pending comments"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:770
+#: inc/libraries/class-wp-list-table.php:1357
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+
+#: inc/libraries/class-wp-list-table.php:806
+msgid "First page"
+msgstr "صفحه نخست"
+
+#: inc/libraries/class-wp-list-table.php:816
+msgid "Previous page"
+msgstr "صفحه قبل"
+
+#: inc/libraries/class-wp-list-table.php:823
+#: inc/libraries/class-wp-list-table.php:826
+msgid "Current Page"
+msgstr "صفحه‌ی کنونی"
+
+#: inc/libraries/class-wp-list-table.php:832
+#, php-format
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s از %2$s"
+
+#: inc/libraries/class-wp-list-table.php:839
+msgid "Next page"
+msgstr "صفحه بعد"
+
+#: inc/libraries/class-wp-list-table.php:849
+msgid "Last page"
+msgstr "صفحه آخر"
+
+#: inc/libraries/class-wp-list-table.php:1077
+msgid "Select All"
+msgstr "انتخاب همه"
+
+#. Plugin Name of the plugin/theme
+msgid "MANA Gateway"
+msgstr "درگاه پرداخت مانا"
+
+#. Description of the plugin/theme
+msgid "This is a free extensible plugin to add online payment to your site!"
+msgstr ""
+"پلاگین رایگان و توسعه پذیر برای اضافه نمودن قابلیت پرداخت آنلاین به سایت "
+"شماست!"
+
+#. Author of the plugin/theme
+msgid "MANA"
+msgstr "مانا"
+
+#. Author URI of the plugin/theme
+msgid "http://ov2.com"
+msgstr "http://ov2.com"
+
+#~ msgid "cURL isn't loaded on your host."
+#~ msgstr "cURL در هاست شما بارگذاری نشده است."
+
+#~ msgid "cURL Error"
+#~ msgstr "خطای cURL"
+
+#~ msgid "Settings"
+#~ msgstr "تنظیمات"
+
+#~ msgid "Currency Settings"
+#~ msgstr "تنظیمات واحد پول"
+
+#~ msgid "Currency"
+#~ msgstr "واحد پول"

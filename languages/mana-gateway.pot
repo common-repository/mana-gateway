@@ -1,0 +1,498 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: MANA Gateway\n"
+"POT-Creation-Date: 2018-10-25 10:02+0330\n"
+"PO-Revision-Date: 2018-10-02 13:05+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: mana-gateway.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/admin/class-admin.php:108 inc/admin/class-admin.php:109
+msgid "Payment Gateway"
+msgstr ""
+
+#: inc/admin/class-admin.php:118 inc/admin/class-admin.php:119
+#: inc/admin/class-admin.php:129 inc/admin/class-admin.php:130
+#: inc/admin/views/partials-mana-item-list-table.php:5
+msgid "Payment Log"
+msgstr ""
+
+#: inc/admin/class-admin.php:197
+msgid "Logs Per Page"
+msgstr ""
+
+#: inc/admin/class-admin.php:232 inc/admin/class-payment-log-table.php:93
+msgid "Log Details"
+msgstr ""
+
+#: inc/admin/class-admin.php:235
+#: inc/admin/views/html-mana-gateway-manage.php:5
+msgid "Back"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:85
+msgid "Date"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:86
+msgid "Pay ID"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:87
+#: inc/frontend/class-frontend.php:308
+msgid "Price"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:88
+msgid "Payer Name"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:89
+msgid "Payer Info"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:90
+#: inc/frontend/class-frontend.php:317
+msgid "Gateway"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:91
+msgid "From Page"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:92
+#: inc/admin/views/html-mana-gateway-admin-display.php:37
+#: inc/common/gateways/class-gateway-zarinpal.php:43
+#: inc/common/gateways/class-gateway-zarinpal.php:45
+msgid "Status"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:141
+msgid "No logs available."
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:208
+#: inc/frontend/class-frontend.php:263
+msgid "Email"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:209
+#: inc/frontend/class-frontend.php:272
+msgid "Mobile"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:211
+#: inc/frontend/class-frontend.php:281
+msgid "Phone"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:212
+#: inc/frontend/class-frontend.php:290
+msgid "Address"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:214
+#: inc/frontend/class-frontend.php:299
+msgid "Comment"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:216
+msgid "User"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:280
+#: inc/admin/class-payment-log-table.php:298
+msgid "Details"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:290
+#: inc/admin/views/partials-mana-item-list-table.php:31
+msgid "Failed"
+msgstr ""
+
+#: inc/admin/class-payment-log-table.php:292
+#: inc/admin/views/partials-mana-item-list-table.php:27
+msgid "Success"
+msgstr ""
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:4
+msgid "Gateway Settings"
+msgstr ""
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:9
+msgid "Tutorial"
+msgstr ""
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:15
+msgid "Instructions"
+msgstr ""
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:17
+msgid "1- Manage and activate desired gateways."
+msgstr ""
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:19
+msgid "2- Put this shortcode in your post or page: "
+msgstr ""
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:22
+msgid "[payment_form price='PaymentPrice' currency='CurrencyCode']"
+msgstr ""
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:26
+msgid ""
+"* PaymentPrice is digit and CurrencyCode is Standard Currency Code (stated "
+"in gateway settings)"
+msgstr ""
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:36
+msgid "Method"
+msgstr ""
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:38
+#: inc/common/gateways/class-gateway-zarinpal.php:67
+msgid "Description"
+msgstr ""
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:61
+#: inc/admin/views/html-mana-gateway-manage.php:60
+msgid "Enabled"
+msgstr ""
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:61
+#: inc/admin/views/html-mana-gateway-manage.php:60
+msgid "Disabled"
+msgstr ""
+
+#: inc/admin/views/html-mana-gateway-admin-display.php:65
+msgid "Manage"
+msgstr ""
+
+#: inc/admin/views/html-mana-gateway-manage.php:73
+msgid "Save Settings"
+msgstr ""
+
+#: inc/admin/views/html-mana-gateway-manage.php:75
+msgid "Cancel"
+msgstr ""
+
+#: inc/admin/views/partials-mana-item-list-table.php:12
+msgid "Find"
+msgstr ""
+
+#: inc/admin/views/partials-mana-item-list-table.php:17
+msgid "Display Only"
+msgstr ""
+
+#: inc/admin/views/partials-mana-item-list-table.php:23
+msgid "All"
+msgstr ""
+
+#: inc/common/class-gateway-base.php:112
+#, php-format
+msgid "Supported Currency is %s."
+msgstr ""
+
+#: inc/common/class-gateway-settings.php:153
+msgid "Rials"
+msgstr ""
+
+#: inc/common/class-gateway-settings.php:154
+msgid "Dollars"
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:19
+msgid "ZarinPal secure payment"
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:20
+msgid "ZarinPal payment gateway for Wordpress"
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:38
+msgid "ZarinPal gateway's settings for Mana gateway plugin"
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:50
+msgid "Merchant Code"
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:54
+msgid "ZarinPal gateway's merchant code"
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:59
+msgid "Activate ZarinGate"
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:61
+msgid "To activate direct gateway (ZarinGate), please tick the checkbox."
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:62
+msgid "ZarinPal's direct gateway"
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:69
+msgid ""
+"Transaction description: You can use these shortcodes: {pay_id},{name}"
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:74
+msgid "Success Message"
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:76
+msgid ""
+"Message after a successful transaction. You can use these shortcodes: "
+"{pay_id},{price},{name},{gateway},{refid},{message}"
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:81
+msgid "Failed Message"
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:83
+msgid ""
+"Message after a successful transaction. You can use these shortcodes: "
+"{pay_id},{price},{name},{gateway},{message}"
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:136
+msgid "HTTP Error"
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:196
+msgid "Callback URL shouldn't be empty."
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:200
+msgid "Description shouldn't be empty."
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:203
+msgid "Incomplete sent data."
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:204
+msgid "Invalid IP or Merchant code."
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:205
+msgid "Invalid amount due to restrictions."
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:206
+msgid "Couldn't find the request."
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:207
+msgid "Can't edit the request."
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:208
+msgid "No payment transaction found."
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:209
+msgid "Failed transaction."
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:210
+msgid "Paid amount doesn't match request amount."
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:211
+msgid "Request has been archived."
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:212
+msgid "Successful transaction."
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:213
+msgid "Transaction is successful and had been verified before."
+msgstr ""
+
+#: inc/common/gateways/class-gateway-zarinpal.php:219
+msgid "Unknown Error occurred."
+msgstr ""
+
+#: inc/frontend/class-frontend.php:219
+msgid "Error"
+msgstr ""
+
+#: inc/frontend/class-frontend.php:219
+msgid "Missing Required Parameter: Price"
+msgstr ""
+
+#: inc/frontend/class-frontend.php:249
+msgid "Online Payment"
+msgstr ""
+
+#: inc/frontend/class-frontend.php:254
+msgid "Name"
+msgstr ""
+
+#: inc/frontend/class-frontend.php:265
+msgid "Valid Email (i.e. example@domain.com)"
+msgstr ""
+
+#: inc/frontend/class-frontend.php:283
+msgid "Phone number including area code"
+msgstr ""
+
+#: inc/frontend/class-frontend.php:320
+msgid "Select..."
+msgstr ""
+
+#: inc/frontend/class-frontend.php:330
+msgid "Pay"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:170
+msgid "List View"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:171
+msgid "Excerpt View"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:342
+msgid "No items found."
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:469
+msgid "Select bulk action"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:471
+msgid "Bulk Actions"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:481
+msgid "Apply"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:531
+#: inc/libraries/class-wp-list-table.php:1332
+msgid "Show more details"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:594
+msgid "Filter by date"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:596
+msgid "All dates"
+msgstr ""
+
+#. translators: 1: month name, 2: 4-digit year
+#: inc/libraries/class-wp-list-table.php:609
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:661
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libraries/class-wp-list-table.php:662
+#, php-format
+msgid "%s approved comment"
+msgid_plural "%s approved comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libraries/class-wp-list-table.php:663
+#, php-format
+msgid "%s pending comment"
+msgid_plural "%s pending comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libraries/class-wp-list-table.php:668
+#: inc/libraries/class-wp-list-table.php:680
+#: inc/libraries/class-wp-list-table.php:693
+msgid "No comments"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:680
+msgid "No approved comments"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:693
+msgid "No pending comments"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:770
+#: inc/libraries/class-wp-list-table.php:1357
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libraries/class-wp-list-table.php:806
+msgid "First page"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:816
+msgid "Previous page"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:823
+#: inc/libraries/class-wp-list-table.php:826
+msgid "Current Page"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:832
+#, php-format
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:839
+msgid "Next page"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:849
+msgid "Last page"
+msgstr ""
+
+#: inc/libraries/class-wp-list-table.php:1077
+msgid "Select All"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "MANA Gateway"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This is a free extensible plugin to add online payment to your site!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MANA"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://ov2.com"
+msgstr ""
